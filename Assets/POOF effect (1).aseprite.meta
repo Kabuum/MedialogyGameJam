@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 545997eaa4748964c833fcf663b0a95d
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: POOF effect (1)_Clip
+    second: {fileID: 7400000, guid: a9adf33ffea017d41b8e913669898b4b, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -95,7 +100,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638331434227575946
+  platformSettingsDirtyTick: 638331438382080634
   textureAssetName: 
   singleSpriteImportData:
   - name: 
