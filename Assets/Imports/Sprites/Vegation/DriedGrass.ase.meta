@@ -1,8 +1,13 @@
 fileFormatVersion: 2
-guid: e1ac6c8dfa754e142ba3cdfbc63977bd
+guid: 96a614edaf3d9d84ca055afc9bc23e91
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: wheat2_Clip
+    second: {fileID: 7400000, guid: 7b69e38d32719284a9f4cb9438ecbef1, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -95,7 +100,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638331307694299098
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +124,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: sandgrass 1
+  - name: DriedGrass_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.3478261, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 32
+      width: 23
       height: 32
-    spriteID: 385537bfae830ef4eb19e7b2dcd4e984
+    spriteID: 193979c4fd7413947802d537df841a3e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +144,90 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: DriedGrass_Frame_1
+    originalName: 
+    pivot: {x: 0.36363637, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 4
+      width: 22
+      height: 32
+    spriteID: ba5fd98ce16cd9545a1838ced05ea589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 27763981
-    name: sandgrass 1
+    guid: -1050922064
+    name: DriedGrass
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: sandgrass 1
+    - name: DriedGrass_Frame_0
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 8
         y: 0
-        width: 32
+        width: 23
         height: 32
-      spriteId: 385537bfae830ef4eb19e7b2dcd4e984
+      spriteId: 193979c4fd7413947802d537df841a3e
+    - name: DriedGrass_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 0
+        width: 22
+        height: 32
+      spriteId: ba5fd98ce16cd9545a1838ced05ea589
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
