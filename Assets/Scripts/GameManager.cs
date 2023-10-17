@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        effect.GetComponent<Animator>().Play("Idle");
         effect.SetActive(false);
         lion.SetActive(false);
     }
@@ -27,19 +28,22 @@ public class GameManager : MonoBehaviour
 
     void PlayerTransformation(int playerStateIndex)
     {
+        effect.SetActive(true);
 
         if (mainPlayer.activeSelf == true)
-        {
+        {   
+            effect.GetComponent<Animator>().Play("Entry");
             mainPlayer.SetActive(false);
             lion.SetActive(true);
         }
         else if (mainPlayer.activeSelf == false)
         {
+            effect.GetComponent<Animator>().Play("Entry");
             lion.SetActive(false);
             mainPlayer.SetActive(true);
         }
-        effect.SetActive(true);
-        effect.GetComponent<Animator>().SetTrigger("Active");
+     
+       
     }
 
     public static void LoadScene(int sceneIndex)

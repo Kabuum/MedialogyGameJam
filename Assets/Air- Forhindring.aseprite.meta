@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 382841e19d1444244832bf728a4e6b5c
+guid: 2e4be701d8fdd434b8120628c6b8a0d0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638331473185227114
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Rock obsticale
+  - name: Air- Forhindring_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.9411765, y: -0.53333336}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 27
-      height: 24
-    spriteID: e5e81d070e1c8694aa083c3fce9f3ad9
+      width: 17
+      height: 15
+    spriteID: 7859bc95f4a12974a853bab811ee576d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,62 +139,54 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Air- Forhindring_Frame_1
+    originalName: 
+    pivot: {x: 0.84615386, y: -0.53333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 27
+      width: 13
+      height: 15
+    spriteID: 93162724e4ce4fe40a46e6edc40443da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 27}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 555092345
-    name: Rock obsticale
+    guid: 1424662077
+    name: Air- Forhindring
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Rock obsticale
+    - name: Air- Forhindring_Frame_0
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 2
-        width: 27
-        height: 24
-      spriteId: e5e81d070e1c8694aa083c3fce9f3ad9
+        x: 0
+        y: 8
+        width: 17
+        height: 15
+      spriteId: 7859bc95f4a12974a853bab811ee576d
+    - name: Air- Forhindring_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 5
+        y: 8
+        width: 13
+        height: 15
+      spriteId: 93162724e4ce4fe40a46e6edc40443da
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

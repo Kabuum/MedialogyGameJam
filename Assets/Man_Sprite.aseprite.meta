@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 382841e19d1444244832bf728a4e6b5c
+guid: be2bc17e3b120b442a8a4147847334e6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638331473185227114
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,38 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Rock obsticale
+  - name: Man_Sprite_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.71999997, y: -0.24324325}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 49
+      width: 25
+      height: 37
+    spriteID: efc6d7126fe69fc46b95a25d35ce0da4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 49}
+  - name: Man_Sprite_Frame_1
+    originalName: 
+    pivot: {x: 0.76, y: -0.20512821}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 27
-      height: 24
-    spriteID: e5e81d070e1c8694aa083c3fce9f3ad9
+      width: 25
+      height: 39
+    spriteID: 5827ef0699e531c49a96c1b6626d1c14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,62 +159,90 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Man_Sprite_Frame_2
+    originalName: 
+    pivot: {x: 0.7307693, y: -0.24324325}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 26
+      height: 37
+    spriteID: 0fd25ea7bbf99b744b72a97d3be4556e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: Man_Sprite_Frame_3
+    originalName: 
+    pivot: {x: 0.75, y: -0.20512821}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 51
+      width: 24
+      height: 39
+    spriteID: 335ecb83adf114f4b82c1afa38b7ed26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 51}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 555092345
-    name: Rock obsticale
+    guid: -224590658
+    name: Man_Sprite
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Rock obsticale
+    - name: Man_Sprite_Frame_0
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 2
-        width: 27
-        height: 24
-      spriteId: e5e81d070e1c8694aa083c3fce9f3ad9
+        x: 14
+        y: 9
+        width: 25
+        height: 37
+      spriteId: efc6d7126fe69fc46b95a25d35ce0da4
+    - name: Man_Sprite_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 8
+        width: 25
+        height: 39
+      spriteId: 5827ef0699e531c49a96c1b6626d1c14
+    - name: Man_Sprite_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 9
+        width: 26
+        height: 37
+      spriteId: 0fd25ea7bbf99b744b72a97d3be4556e
+    - name: Man_Sprite_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 14
+        y: 8
+        width: 24
+        height: 39
+      spriteId: 335ecb83adf114f4b82c1afa38b7ed26
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 64, y: 64}
