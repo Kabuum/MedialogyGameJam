@@ -121,15 +121,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Foreground_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 960
-      height: 148
+      height: 120
     spriteID: 534c4e09718da4346ba3074974312316
     spriteBone: []
     spriteOutline: []
@@ -147,9 +147,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 160
+      y: 132
       width: 960
-      height: 148
+      height: 120
     spriteID: 6184b2c2f47e92743b397b9c4992d406
     spriteBone: []
     spriteOutline: []
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 160}
+    uvTransform: {x: 4, y: 132}
   - name: Foreground_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -167,9 +167,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 316
+      y: 260
       width: 960
-      height: 148
+      height: 120
     spriteID: 1652af363b71d6440834442d76ae5626
     spriteBone: []
     spriteOutline: []
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 316}
+    uvTransform: {x: 4, y: 260}
   - name: Foreground_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -187,9 +187,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 472
+      y: 388
       width: 960
-      height: 148
+      height: 120
     spriteID: 649de1cbf180e7e4d9ece73ecb507467
     spriteBone: []
     spriteOutline: []
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 472}
+    uvTransform: {x: 4, y: 388}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -214,7 +214,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 960
-        height: 148
+        height: 120
       spriteId: 534c4e09718da4346ba3074974312316
     - name: Foreground_Frame_1
       frameIndex: 1
@@ -222,7 +222,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 960
-        height: 148
+        height: 120
       spriteId: 6184b2c2f47e92743b397b9c4992d406
     - name: Foreground_Frame_2
       frameIndex: 2
@@ -230,7 +230,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 960
-        height: 148
+        height: 120
       spriteId: 1652af363b71d6440834442d76ae5626
     - name: Foreground_Frame_3
       frameIndex: 3
@@ -238,7 +238,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 960
-        height: 148
+        height: 120
       spriteId: 649de1cbf180e7e4d9ece73ecb507467
     linkedCells: []
     parentIndex: -1
