@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController2D : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
+
+    public Transform player;
+    public Vector3 offsets;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,6 @@ public class CharacterController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = player.position + offsets;
     }
 }
