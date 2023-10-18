@@ -2,8 +2,9 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngineInternal;
 
-public class PlayerController2D : MonoBehaviour
+public class PlayerController2DLion : MonoBehaviour
 {
     [SerializeField]
     public float moveSpeed = 10;
@@ -12,9 +13,7 @@ public class PlayerController2D : MonoBehaviour
     public float stamina;
     public GameObject manager;
 
-
-  
-
+    bool isGrounded;
     // Update is called once per frame
     void Update()
     {
@@ -25,7 +24,7 @@ public class PlayerController2D : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             this.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jump));
-
+            isGrounded = false;
         }
         if (Input.GetKey(KeyCode.A))
         {
@@ -47,12 +46,29 @@ public class PlayerController2D : MonoBehaviour
             }
             stamina -= 1 * Time.deltaTime;
             transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-
-
         }
     }
     public void EatFood()
     {
         stamina += 10;
+    }
+
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ObstacleDanger"))
+        {
+            manager.GetComponent<GameManager>().RestartLevel();
+            Debug.Log("you is homo");
+            //restart
+        }
+        if (collision.gameObject.CompareTag("ObstacleBlock"))
+        {
+            //add backwards force
+        }
+        if (collision.gameObject.CompareTag("Ground")){
+            isGrounded = true;
+        }
+
     }
 }
