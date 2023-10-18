@@ -13,7 +13,7 @@ public class PlayerController2DLion : MonoBehaviour
     public float stamina;
     public GameObject manager;
 
-    bool isGrounded;
+    bool isGrounded = true;
     // Update is called once per frame
     void Update()
     {
@@ -21,7 +21,7 @@ public class PlayerController2DLion : MonoBehaviour
         {
             manager.GetComponent<GameManager>().RestartLevel();
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             this.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jump));
             isGrounded = false;
