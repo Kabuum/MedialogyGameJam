@@ -25,6 +25,7 @@ public class PlayerEagle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.rotation = Quaternion.identity;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(Vector2.up*flap,ForceMode2D.Impulse);
