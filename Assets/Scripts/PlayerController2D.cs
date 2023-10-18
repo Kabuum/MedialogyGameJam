@@ -30,11 +30,6 @@ public class PlayerController2D : MonoBehaviour
     public Rigidbody2D rbLion;
 
 
-
-
-
-
-
     public GameObject eagle;
     public GameObject lion;
 
@@ -62,7 +57,9 @@ public class PlayerController2D : MonoBehaviour
             isLion = true;
         }
 
-        eagle.SetActive(false);
+        
+
+     //  eagle.SetActive(false);
     }
 
     void Update()
@@ -140,6 +137,7 @@ public class PlayerController2D : MonoBehaviour
     public void SwapAnimal(GameObject currentAnimal, GameObject nextAnimal)
     {
         currentAnimal.SetActive(false);
+        nextAnimal = eagle;
         Debug.Log(nextAnimal);
         nextAnimal.SetActive(true);
     }
@@ -152,7 +150,6 @@ public class PlayerController2D : MonoBehaviour
         if (collision.gameObject.CompareTag("ObstacleDanger"))
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
-            //restart
         }
         if (collision.gameObject.CompareTag("ObstacleBlock"))
         {
@@ -162,10 +159,10 @@ public class PlayerController2D : MonoBehaviour
         {
             isGrounded = true;
         }
-        else if (collision.gameObject.CompareTag("Ground") && isLion == false)
+        if (collision.gameObject.CompareTag("Ground") && isLion == false)
         {
             isGrounded = true;
-            isLion = true;
+            SwapAnimal(eagle, lion);
         }
 
     }

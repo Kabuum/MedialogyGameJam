@@ -16,19 +16,21 @@ public class FoodPickup : MonoBehaviour
     }
     void LionEat()
     {
-        eatEffect.Play();
-        Destroy(eatEffect, 4);
+        //eatEffect.Play();
+        //Destroy(eatEffect, 4);
         Destroy(this.gameObject);
         lionPlayer.GetComponent<PlayerController2D>().EatFood();
 
 
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+   
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Lion"))
         {
             LionEat();
         }
     }
+
+
 }
