@@ -4,23 +4,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-
     public GameObject mainPlayer;
     public GameObject lion;
-    public GameObject effect;
+  //  public GameObject effect;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-        effect.GetComponent<Animator>().Play("Idle");
-        effect.SetActive(false);
-        lion.SetActive(false);
+       // effect.GetComponent<Animator>().Play("Idle");
+       // effect.SetActive(false);
+        // lion.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        /* if (Input.GetKeyDown(KeyCode.E))
         {
             PlayerTransformation(0);
         }
@@ -43,9 +42,12 @@ public class GameManager : MonoBehaviour
             mainPlayer.SetActive(true);
         }
      
-       
+       */
     }
-
+    public void RestartLevel()
+    {
+        LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     public static void LoadScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
