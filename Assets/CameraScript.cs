@@ -18,7 +18,7 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        YClamp=Mathf.Clamp(target.position.y, 2.8125f, 10f);
+        YClamp=Mathf.Clamp(target.position.y, 2.8125f, 8.45f);
         Vector3 targetPosition = new Vector3(target.position.x+5f, YClamp, -2f);//target.TransformPoint(new Vector3(5f,2.8125f, -1f));
         
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothtime);
