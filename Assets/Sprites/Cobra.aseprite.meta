@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31fc0bc3eb9f4f64bb9fcfb7ddb6d291
+guid: d3197170dde62064c8d1f867c4337e0d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638331516574664318
+  platformSettingsDirtyTick: 638331526036364170
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: ForegroundCollider
+  - name: Cobra_Frame_0
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 6
+    pivot: {x: 0.44, y: -0.11538462}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 960
-      height: 13
-    spriteID: 1709a6b8f2becd544a15ee351cbbbb71
+      width: 25
+      height: 26
+    spriteID: 31c1e61670e5d0248a8f0097d6ca75ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,23 +139,79 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Cobra_Frame_1
+    originalName: 
+    pivot: {x: 0.44, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 25
+      height: 25
+    spriteID: cbbba9f5cd840d444b60894aaf4329a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: Cobra_Frame_2
+    originalName: 
+    pivot: {x: 0.44, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 25
+      height: 26
+    spriteID: f58d757452788e54483594125d3cad75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 694669437
-    name: ForegroundCollider
+    guid: -452048167
+    name: Cobra
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: ForegroundCollider
+    - name: Cobra_Frame_0
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 960
-        height: 13
-      spriteId: 1709a6b8f2becd544a15ee351cbbbb71
+        x: 5
+        y: 3
+        width: 25
+        height: 26
+      spriteId: 31c1e61670e5d0248a8f0097d6ca75ad
+    - name: Cobra_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 5
+        y: 3
+        width: 25
+        height: 25
+      spriteId: cbbba9f5cd840d444b60894aaf4329a7
+    - name: Cobra_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 3
+        width: 25
+        height: 26
+      spriteId: f58d757452788e54483594125d3cad75
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -197,4 +253,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 960, y: 180}
+  canvasSize: {x: 32, y: 32}

@@ -1,22 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
 
-    public Transform player;
-    public Vector3 offsets;
-    
+    public float camSpeed;
+    public Vector3 offests;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.position + offsets;
+
+
+        transform.position = transform.position + offests * camSpeed * Time.deltaTime;
     }
 }

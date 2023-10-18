@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31fc0bc3eb9f4f64bb9fcfb7ddb6d291
+guid: d7b43562672a98c45bcc70a5c30c84c6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638331516574664318
+  platformSettingsDirtyTick: 638331524485804989
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: ForegroundCollider
+  - name: Treetrunk
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 6
+    pivot: {x: 0.5, y: -0.3809524}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 960
-      height: 13
-    spriteID: 1709a6b8f2becd544a15ee351cbbbb71
+      width: 24
+      height: 21
+    spriteID: e1e9d070d98f52f4fb433d1791a4db7f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 694669437
-    name: ForegroundCollider
+    guid: 1987100852
+    name: Treetrunk
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: ForegroundCollider
+    - name: Treetrunk
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 960
-        height: 13
-      spriteId: 1709a6b8f2becd544a15ee351cbbbb71
+        x: 4
+        y: 8
+        width: 24
+        height: 21
+      spriteId: e1e9d070d98f52f4fb433d1791a4db7f
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -197,4 +197,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 960, y: 180}
+  canvasSize: {x: 32, y: 32}
