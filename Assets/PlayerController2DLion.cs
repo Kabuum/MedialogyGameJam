@@ -14,6 +14,8 @@ public class PlayerController2DLion : MonoBehaviour
     public GameObject manager;
 
     bool isGrounded = true;
+
+    int jumps = 2;
     // Update is called once per frame
     void Update()
     {
@@ -52,8 +54,6 @@ public class PlayerController2DLion : MonoBehaviour
     {
         stamina += 10;
     }
-
-
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("ObstacleDanger"))
