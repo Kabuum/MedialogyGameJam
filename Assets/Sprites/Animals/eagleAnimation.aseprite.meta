@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -76,7 +76,7 @@ ScriptedImporter:
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
-    customPivotPosition: {x: 0.5, y: 0.5}
+    customPivotPosition: {x: 0, y: 0}
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -88,14 +88,14 @@ ScriptedImporter:
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
-    customPivotPosition: {x: 0.5, y: 0.5}
+    customPivotPosition: {x: 0, y: 0}
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638332309735960770
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: eagle animation_Frame_0
+  - name: eagleAnimation_Frame_0
     originalName: 
-    pivot: {x: -0.09375006, y: -0.3181818}
+    pivot: {x: 0.5, y: -0.3181818}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 22
-    spriteID: 08ced74130c26704ebd1a3fa9ba21955
+    spriteID: 92bd7ba0a375074418dd47a68aee7fba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,9 +139,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: eagle animation_Frame_1
+  - name: eagleAnimation_Frame_1
     originalName: 
-    pivot: {x: -0.09375006, y: -0.5}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 58
       width: 32
       height: 14
-    spriteID: 247fc28d3ad5cbe46adb5e7905eea076
+    spriteID: 0b1071145635bab4488a42f46d9da28f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,9 +159,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 58}
-  - name: eagle animation_Frame_2
+  - name: eagleAnimation_Frame_2
     originalName: 
-    pivot: {x: -0.09375006, y: -0.1875}
+    pivot: {x: 0.5, y: -0.1875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 34
       width: 32
       height: 16
-    spriteID: c48f8e23271fc9b41aa1a031029e1aee
+    spriteID: 9aa4db4f7bac8ef48911bc79a3e51846
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,9 +179,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 34}
-  - name: eagle animation_Frame_3
+  - name: eagleAnimation_Frame_3
     originalName: 
-    pivot: {x: -0.09375006, y: -0.5}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 80
       width: 32
       height: 14
-    spriteID: f712ed0ac5a74d543a954288048b2175
+    spriteID: f41980bc8f386984fb3cdc6e0692f1bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,47 +202,83 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1753328620
-    name: eagle animation
+    guid: 911941720
+    name: eagleAnimation
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: eagle animation_Frame_0
+    - name: eagleAnimation_Frame_0
       frameIndex: 0
       cellRect:
-        x: 38
+        x: 0
         y: 7
         width: 32
         height: 22
-      spriteId: 08ced74130c26704ebd1a3fa9ba21955
-    - name: eagle animation_Frame_1
+      spriteId: 92bd7ba0a375074418dd47a68aee7fba
+    - name: eagleAnimation_Frame_1
       frameIndex: 1
       cellRect:
-        x: 38
+        x: 0
         y: 7
         width: 32
         height: 14
-      spriteId: 247fc28d3ad5cbe46adb5e7905eea076
-    - name: eagle animation_Frame_2
+      spriteId: 0b1071145635bab4488a42f46d9da28f
+    - name: eagleAnimation_Frame_2
       frameIndex: 2
       cellRect:
-        x: 38
+        x: 0
         y: 3
         width: 32
         height: 16
-      spriteId: c48f8e23271fc9b41aa1a031029e1aee
-    - name: eagle animation_Frame_3
+      spriteId: 9aa4db4f7bac8ef48911bc79a3e51846
+    - name: eagleAnimation_Frame_3
       frameIndex: 3
       cellRect:
-        x: 38
+        x: 0
         y: 7
         width: 32
         height: 14
-      spriteId: f712ed0ac5a74d543a954288048b2175
+      spriteId: f41980bc8f386984fb3cdc6e0692f1bd
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 70, y: 32}
+  canvasSize: {x: 32, y: 32}
