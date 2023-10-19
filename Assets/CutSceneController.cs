@@ -8,6 +8,7 @@ public class CutSceneController : MonoBehaviour
 {
     bool hasPlayed;
     public GameObject spaceBar;
+    public Sprite endSprite;
 
     private void Start()
     {
@@ -18,17 +19,26 @@ public class CutSceneController : MonoBehaviour
     }
     void Update()
     {
-        if (CheckAnimState() && spaceBar == null)
+        if (hasPlayed != true)
         {
-            SceneControl.LoadNextScene();
+            hasPlayed = CheckAnimState();
         }
-        if (CheckAnimState() && spaceBar != null)
+        if (hasPlayed == true)
         {
-            spaceBar.SetActive(true);
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && CheckAnimState())
-        {
-            SceneControl.LoadNextScene();
+            if (spaceBar != null)
+            {
+                spaceBar.SetActive(true);
+            }
+            gameObject.GetComponent<Animator>().enabled = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = endSprite;
+            if (spaceBar == null)
+            {
+                SceneControl.LoadNextScene();
+            }
+            else if (spaceBar != null && Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneControl.LoadNextScene();
+            }
         }
     }
     bool CheckAnimState()
