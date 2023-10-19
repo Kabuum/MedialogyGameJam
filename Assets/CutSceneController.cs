@@ -1,7 +1,6 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -12,11 +11,18 @@ public class CutSceneController : MonoBehaviour
 
     private void Start()
     {
-        spaceBar.SetActive(false);
+        if (spaceBar != null)
+        {
+            spaceBar.SetActive(false);
+        }
     }
     void Update()
     {
-        if (CheckAnimState())
+        if (CheckAnimState() && spaceBar == null)
+        {
+            SceneControl.LoadNextScene();
+        }
+        if (CheckAnimState() && spaceBar != null)
         {
             spaceBar.SetActive(true);
         }
@@ -36,11 +42,12 @@ public class CutSceneController : MonoBehaviour
                 return hasPlayed = true;
             }
             else { return false; }
-        } else
+        }
+        else
         {
             return true;
         }
-       
+
     }
 }
 
