@@ -105,6 +105,13 @@ public class PlayerController2D : MonoBehaviour
             keyboardTutorial.SetActive(true);
             Destroy(keyboardTutorial, 2);
         }
+        if (collision.gameObject.CompareTag("FoodPickup"))
+        {
+            EatFood();
+            collision.gameObject.GetComponent<FoodPickup>().Eaten();
+
+
+        }
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -129,13 +136,9 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina--;
         }
-        if (collision.gameObject.CompareTag("FoodPickup"))
-        {
-            EatFood();
-            Destroy(collision.gameObject);
-
-
-        }
+       
     }
+
+    
 
 }

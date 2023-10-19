@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FoodPickup : MonoBehaviour
 {
-    public ParticleSystem eatEffect;
+    public GameObject eatEffect;
 
+    public GameObject foodObject;
 
     private void Start()
     {
@@ -13,9 +15,10 @@ public class FoodPickup : MonoBehaviour
     }
     public void Eaten()
     {
+        Debug.Log("Hello");
+        Destroy(foodObject);
+        
+        eatEffect.SetActive(true);
         //spil lydeffect
-        //detroy object
-        //destroy particle effect
-
     }
 }
