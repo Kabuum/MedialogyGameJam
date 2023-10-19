@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cutscene1.unity
-    guid: 021007c7e3c936743896bae2f865fe00
-  - enabled: 1
-    path: "Assets/Scenes/L\xF8vebane.unity"
-    guid: 677391e60db5d914ca4778c9f977bce0
-  - enabled: 1
-    path: Assets/Scenes/Testscenes/Mikkel.unity
-    guid: 32ba73455246e2d448406a67d606c4cf
+    path: Assets/Scenes/Lvl 1.unity
+    guid: 24e8ab86ef038584396ccd84bc06ec46
   m_configObjects: {}

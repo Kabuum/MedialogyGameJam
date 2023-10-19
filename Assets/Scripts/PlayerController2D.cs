@@ -1,13 +1,5 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor;
-using UnityEditor.U2D.Animation;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngineInternal;
 
 public class PlayerController2D : MonoBehaviour
 {  //Future work. Animals should be made into classes
@@ -36,9 +28,18 @@ public class PlayerController2D : MonoBehaviour
 
     public GameObject keyboardTutorial;
 
+    public AudioSource jumpSound;
+    public AudioSource hurtSound;
+
+    public GameObject poofEffect;
+
+
+
     void Start()
     {
         isLion = true;
+        keyboardTutorial.SetActive(false);
+        poofEffect.SetActive(false);
     }
     void Update()
     {
@@ -47,7 +48,6 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina = maxStamina;
         }
-
         if (playerStamina <= 0)
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
@@ -62,11 +62,12 @@ public class PlayerController2D : MonoBehaviour
         {
             rb.AddForce(new Vector2(0, jumpForce));
             jumps--;
+            jumpSound.Play();
         }
         if (Input.GetKeyDown(KeyCode.Space) && isLion == false)
         {
             rb.AddForce(Vector2.up * flap, ForceMode2D.Impulse);
-            //Afspil et flap
+            jumpSound.Play();
         }
         if ((rb.velocity.magnitude < maxSpeedEagle * -1) && isLion == false)
         {
@@ -79,6 +80,8 @@ public class PlayerController2D : MonoBehaviour
     }
     public void AnimalSwap()
     {
+        poofEffect.SetActive(false);
+        poofEffect.SetActive(true);
         if (isLion == false)
         {
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", true);
@@ -90,25 +93,29 @@ public class PlayerController2D : MonoBehaviour
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
             isLion = false;
+            
         }
     }
     public void EatFood()
     {
-        // Tilføj pile der viser ned til maden
+        
         playerStamina += 10;
     }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("RockTutorialTriggerZone"))
         {
             keyboardTutorial.SetActive(true);
-            Destroy(keyboardTutorial, 2);
+            Destroy(keyboardTutorial, 1);
+        }
+        if (collision.gameObject.CompareTag("FoodPickup"))
+        {
+            EatFood();
+            collision.gameObject.GetComponent<FoodPickup>().Eaten();
         }
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("Ground") && isLion == true)
         {
             jumps = 2;
@@ -119,7 +126,6 @@ public class PlayerController2D : MonoBehaviour
             jumps = 2;
             AnimalSwap();
         }
-
         if (collision.gameObject.CompareTag("ObstacleDanger"))
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
@@ -129,13 +135,5 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina--;
         }
-        if (collision.gameObject.CompareTag("FoodPickup"))
-        {
-            EatFood();
-            Destroy(collision.gameObject);
-
-
-        }
-    }
-
+    } 
 }
