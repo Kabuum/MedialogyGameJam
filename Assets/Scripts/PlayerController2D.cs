@@ -63,11 +63,12 @@ public class PlayerController2D : MonoBehaviour
         {
             rb.AddForce(new Vector2(0, jumpForce));
             jumps--;
+            jumpSound.Play();
         }
         if (Input.GetKeyDown(KeyCode.Space) && isLion == false)
         {
             rb.AddForce(Vector2.up * flap, ForceMode2D.Impulse);
-            //Afspil et flap
+            jumpSound.Play();
         }
         if ((rb.velocity.magnitude < maxSpeedEagle * -1) && isLion == false)
         {
