@@ -48,7 +48,6 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina = maxStamina;
         }
-
         if (playerStamina <= 0)
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
@@ -102,7 +101,6 @@ public class PlayerController2D : MonoBehaviour
         
         playerStamina += 10;
     }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("RockTutorialTriggerZone"))
@@ -114,8 +112,6 @@ public class PlayerController2D : MonoBehaviour
         {
             EatFood();
             collision.gameObject.GetComponent<FoodPickup>().Eaten();
-
-
         }
     }
     public void OnCollisionEnter2D(Collision2D collision)
@@ -130,7 +126,6 @@ public class PlayerController2D : MonoBehaviour
             jumps = 2;
             AnimalSwap();
         }
-
         if (collision.gameObject.CompareTag("ObstacleDanger"))
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
@@ -140,9 +135,5 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina--;
         }
-       
-    }
-
-    
-
+    } 
 }
