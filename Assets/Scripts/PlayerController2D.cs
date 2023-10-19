@@ -1,13 +1,4 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor;
-using UnityEditor.U2D.Animation;
 using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngineInternal;
 
 public class PlayerController2D : MonoBehaviour
 {  //Future work. Animals should be made into classes
@@ -95,7 +86,7 @@ public class PlayerController2D : MonoBehaviour
     }
     public void EatFood()
     {
-        // Tilføj pile der viser ned til maden
+        // Tilfï¿½j pile der viser ned til maden
         playerStamina += 10;
     }
 
