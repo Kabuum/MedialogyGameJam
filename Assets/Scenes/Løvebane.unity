@@ -152,8 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a538afbd2b4dab14e9164093c0858490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainPlayer: {fileID: 2121521076}
-  lion: {fileID: 0}
+  player: {fileID: 0}
   foodbarSprites:
   - {fileID: 4543536535614493320, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
   - {fileID: 3396624285531502294, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
@@ -364,9 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574055bd9ed8ec64e85c362db281747d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staminaValue: 10
   eatEffect: {fileID: 0}
-  lionPlayer: {fileID: 0}
 --- !u!1001 &334148297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6339,15 +6336,13 @@ MonoBehaviour:
   maxStamina: 8
   rb: {fileID: 0}
   moveSpeedEagle: 5
-  staminaDrainEagle: 0
   maxSpeedEagle: 8
   flap: 10
   animEagle: {fileID: 0}
   moveSpeedLion: 5
   jumpForce: 25
   staminaDrainLion: 0
-  lionSprite: {fileID: 8231952391556377486, guid: 284bc93db4baec149bc73de9d7300290, type: 3}
-  eagleSprite: {fileID: 8038459376596788154, guid: 2c4d9ae7e5ea1ac459c569b3e0dbefc9, type: 3}
+  keyboardTutorial: {fileID: 0}
 --- !u!4 &1462261630
 Transform:
   m_ObjectHideFlags: 0
