@@ -42,12 +42,4 @@ public class TornadoCreator : MonoBehaviour
             spawnTimer = spawnTimerMax;
         }
      }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.transform.tag == "Nados")
-        {
-            Destroy(collision.gameObject);
-        }
-    }
 }
