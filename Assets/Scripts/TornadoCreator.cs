@@ -17,7 +17,7 @@ public class TornadoCreator : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        spawnTimerMax = 3f;
+        spawnTimerMax = 1f;
         spawnTimer = spawnTimerMax;
         camHeight = cam.orthographicSize;
     }
@@ -26,7 +26,7 @@ public class TornadoCreator : MonoBehaviour
     void Update()
     {
         transform.position = new Vector2(cam.transform.position.x-15,0+3);
-        yPos = Random.Range(cam.transform.position.y-5,cam.transform.position.y+2);
+        yPos = Random.Range(6f,11f);
         xPos = cam.transform.position.x+20;
     }
 

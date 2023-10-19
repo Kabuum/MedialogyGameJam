@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 382841e19d1444244832bf728a4e6b5c, type: 3}
+      propertyPath: m_TagString
+      value: ObstacleDanger
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 382841e19d1444244832bf728a4e6b5c, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
