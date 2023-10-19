@@ -34,6 +34,8 @@ public class PlayerController2D : MonoBehaviour
 
     bool isLion = true;
 
+    public GameObject keyboardTutorial;
+
     void Start()
     {
         isLion = true;
@@ -95,6 +97,15 @@ public class PlayerController2D : MonoBehaviour
         // Tilføj pile der viser ned til maden
         playerStamina += 10;
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("RockTutorialTriggerZone"))
+        {
+            keyboardTutorial.SetActive(true);
+            Destroy(keyboardTutorial, 2);
+        }
+    }
     public void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -122,6 +133,8 @@ public class PlayerController2D : MonoBehaviour
         {
             EatFood();
             Destroy(collision.gameObject);
+
+
         }
     }
 

@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 4beb571992af4d848ba76d4408d38456
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: POOF in village_Frame_0
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 962
+      height: 128
+    spriteID: 6efdf5b3ee07abc439fb54b70e769e36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: POOF in village_Frame_1
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 962
+      height: 128
+    spriteID: 2cdf123e5e9b4e242bd111dde1f7484e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: POOF in village_Frame_2
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 276
+      width: 962
+      height: 128
+    spriteID: 90eeb4c79885bbe4abbafd466b0b152a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 276}
+  - name: POOF in village_Frame_3
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 412
+      width: 962
+      height: 128
+    spriteID: 003abeba3a804fa4a99ad503de532ba3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 412}
+  - name: POOF in village_Frame_4
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 548
+      width: 962
+      height: 128
+    spriteID: 1ff334217b4740d43b231b67faaea3f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 548}
+  - name: POOF in village_Frame_5
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 684
+      width: 962
+      height: 128
+    spriteID: e9efeb2e3318902418a479d29271a29f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 684}
+  - name: POOF in village_Frame_6
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 820
+      width: 962
+      height: 128
+    spriteID: a42edd98421c0b240b0efb0d6ea1be0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 820}
+  - name: POOF in village_Frame_7
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 956
+      width: 962
+      height: 128
+    spriteID: 084de7901eee60e4c88751d64eebd9e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 956}
+  - name: POOF in village_Frame_8
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 962
+      height: 128
+    spriteID: 2873cc03e68fae94baeaa73bb674850a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+  - name: POOF in village_Frame_9
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1228
+      width: 962
+      height: 128
+    spriteID: 40c7a9b80035ed843b7709dd0e4748d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1228}
+  - name: POOF in village_Frame_10
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1364
+      width: 962
+      height: 128
+    spriteID: d34a2d148d8f11140aa48ea973641e28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1364}
+  - name: POOF in village_Frame_11
+    originalName: 
+    pivot: {x: 0.9334719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1500
+      width: 962
+      height: 128
+    spriteID: 63af53fde82da6845b9be1fd8b918154
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1500}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1321803721
+    name: POOF in village
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: POOF in village_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 6efdf5b3ee07abc439fb54b70e769e36
+    - name: POOF in village_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 2cdf123e5e9b4e242bd111dde1f7484e
+    - name: POOF in village_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 90eeb4c79885bbe4abbafd466b0b152a
+    - name: POOF in village_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 003abeba3a804fa4a99ad503de532ba3
+    - name: POOF in village_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 1ff334217b4740d43b231b67faaea3f7
+    - name: POOF in village_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: e9efeb2e3318902418a479d29271a29f
+    - name: POOF in village_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: a42edd98421c0b240b0efb0d6ea1be0a
+    - name: POOF in village_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 084de7901eee60e4c88751d64eebd9e5
+    - name: POOF in village_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 2873cc03e68fae94baeaa73bb674850a
+    - name: POOF in village_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 40c7a9b80035ed843b7709dd0e4748d5
+    - name: POOF in village_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: d34a2d148d8f11140aa48ea973641e28
+    - name: POOF in village_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -834
+        y: 0
+        width: 962
+        height: 128
+      spriteId: 63af53fde82da6845b9be1fd8b918154
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
