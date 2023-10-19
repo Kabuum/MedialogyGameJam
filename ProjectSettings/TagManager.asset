@@ -8,6 +8,10 @@ TagManager:
   - FoodPickup
   - ObstacleDanger
   - RockTutorialTriggerZone
+  - Nados
+  - NadoCreator
+  - Onyx
+  - EndGoal
   layers:
   - Default
   - TransparentFX
