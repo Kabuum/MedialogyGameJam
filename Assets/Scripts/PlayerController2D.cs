@@ -93,12 +93,12 @@ public class PlayerController2D : MonoBehaviour
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
             isLion = false;
-            
+
         }
     }
     public void EatFood()
     {
-        
+
         playerStamina += 10;
     }
     public void OnTriggerEnter2D(Collider2D collision)
@@ -112,6 +112,10 @@ public class PlayerController2D : MonoBehaviour
         {
             EatFood();
             collision.gameObject.GetComponent<FoodPickup>().Eaten();
+        }
+        if (collision.gameObject.CompareTag("EndGoal"))
+        {
+            gameManager.GetComponent<GameManager>().NextScene();
         }
     }
     public void OnCollisionEnter2D(Collision2D collision)
@@ -135,5 +139,5 @@ public class PlayerController2D : MonoBehaviour
         {
             playerStamina--;
         }
-    } 
+    }
 }
