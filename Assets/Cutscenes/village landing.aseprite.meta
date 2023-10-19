@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 962
       height: 128
-    spriteID: dad9f01455fe4c14d842fbcfc7e3e6df
+    spriteID: 21ac403ce05e93e4c88ded84d8ea4790
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 140
       width: 962
       height: 128
-    spriteID: 59b5b8b3d5786f9498b30a756bb2edf0
+    spriteID: 1aac9f659c75d7c4cad91a96a44b364b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 276
       width: 962
       height: 128
-    spriteID: 362ec6a5d0ed57b49a43ffadaa0c5204
+    spriteID: 7ba0f1512950e8a4691bbd9981891708
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 412
       width: 962
       height: 128
-    spriteID: 39b9f1659f401bb4e8887de9812a0770
+    spriteID: a3ebc81aee3647e4fb639505ce6d2eba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 548
       width: 962
       height: 128
-    spriteID: e33dd31143f246248998551a50a351ae
+    spriteID: 255a0be527128334a9f55e089f384892
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 684
       width: 962
       height: 128
-    spriteID: 1f662b2996f5be64ea2c1998a510e30b
+    spriteID: e0fbc754231c54848b65096d41cafbf0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 820
       width: 962
       height: 128
-    spriteID: 609e8e0d46f874e49b0bde799922ed2d
+    spriteID: 732a085a8e8ae8e42bb53a97c5b41f88
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 956
       width: 962
       height: 128
-    spriteID: c75a0e15a86634f46b7072d468dae9a9
+    spriteID: 15ed38fcdefc19f438ed05e6b3e897a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 1092
       width: 962
       height: 128
-    spriteID: 9f0d2fc0868e7e948b85ed4135ec0ee1
+    spriteID: c29b7ad2951be8942b019e69d4dcdfa9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: dad9f01455fe4c14d842fbcfc7e3e6df
+      spriteId: 21ac403ce05e93e4c88ded84d8ea4790
     - name: village landing_Frame_1
       frameIndex: 1
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 59b5b8b3d5786f9498b30a756bb2edf0
+      spriteId: 1aac9f659c75d7c4cad91a96a44b364b
     - name: village landing_Frame_2
       frameIndex: 2
       cellRect:
@@ -331,7 +331,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 362ec6a5d0ed57b49a43ffadaa0c5204
+      spriteId: 7ba0f1512950e8a4691bbd9981891708
     - name: village landing_Frame_3
       frameIndex: 3
       cellRect:
@@ -339,7 +339,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 39b9f1659f401bb4e8887de9812a0770
+      spriteId: a3ebc81aee3647e4fb639505ce6d2eba
     - name: village landing_Frame_4
       frameIndex: 4
       cellRect:
@@ -347,7 +347,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: e33dd31143f246248998551a50a351ae
+      spriteId: 255a0be527128334a9f55e089f384892
     - name: village landing_Frame_5
       frameIndex: 5
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 1f662b2996f5be64ea2c1998a510e30b
+      spriteId: e0fbc754231c54848b65096d41cafbf0
     - name: village landing_Frame_6
       frameIndex: 6
       cellRect:
@@ -363,7 +363,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 609e8e0d46f874e49b0bde799922ed2d
+      spriteId: 732a085a8e8ae8e42bb53a97c5b41f88
     - name: village landing_Frame_7
       frameIndex: 7
       cellRect:
@@ -371,7 +371,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: c75a0e15a86634f46b7072d468dae9a9
+      spriteId: 15ed38fcdefc19f438ed05e6b3e897a1
     - name: village landing_Frame_8
       frameIndex: 8
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         y: 0
         width: 962
         height: 128
-      spriteId: 9f0d2fc0868e7e948b85ed4135ec0ee1
+      spriteId: c29b7ad2951be8942b019e69d4dcdfa9
     linkedCells: []
     parentIndex: -1
   platformSettings: []
