@@ -8,9 +8,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-    public GameObject mainPlayer;
-    public GameObject lion;
-
+    public GameObject player;
+   
     public Sprite[] foodbarSprites;
     public SpriteRenderer foodBar;
     //  public GameObject effect;
@@ -28,7 +27,7 @@ public class GameManager : MonoBehaviour
     {
 
        
-        int stamina = (int)Mathf.Ceil(lion.GetComponent<PlayerController2D>().playerStamina);
+        int stamina = (int)Mathf.Ceil(player.GetComponent<PlayerController2D>().playerStamina);
         Debug.Log("int " + stamina);
         if (stamina > 9)
         {

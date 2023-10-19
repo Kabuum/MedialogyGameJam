@@ -4,33 +4,18 @@ using UnityEngine;
 
 public class FoodPickup : MonoBehaviour
 {
-    public float staminaValue;
     public ParticleSystem eatEffect;
-
-    public GameObject lionPlayer;
 
 
     private void Start()
     {
-       
+
     }
-    void LionEat()
+    public void Eaten()
     {
-        //eatEffect.Play();
-        //Destroy(eatEffect, 4);
-        Destroy(this.gameObject);
-        lionPlayer.GetComponent<PlayerController2D>().EatFood();
-
+        //spil lydeffect
+        //detroy object
+        //destroy particle effect
 
     }
-   
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Lion"))
-        {
-            LionEat();
-        }
-    }
-
-
 }
