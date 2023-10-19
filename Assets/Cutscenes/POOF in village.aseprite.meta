@@ -121,14 +121,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: POOF in village_Frame_0
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 962
+      y: 140
+      width: 128
       height: 128
     spriteID: 6efdf5b3ee07abc439fb54b70e769e36
     spriteBone: []
@@ -138,17 +138,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 140}
   - name: POOF in village_Frame_1
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 140
-      width: 962
+      y: 276
+      width: 128
       height: 128
     spriteID: 2cdf123e5e9b4e242bd111dde1f7484e
     spriteBone: []
@@ -158,17 +158,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 140}
+    uvTransform: {x: 4, y: 276}
   - name: POOF in village_Frame_2
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 276
-      width: 962
+      y: 412
+      width: 128
       height: 128
     spriteID: 90eeb4c79885bbe4abbafd466b0b152a
     spriteBone: []
@@ -178,17 +178,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 276}
+    uvTransform: {x: 4, y: 412}
   - name: POOF in village_Frame_3
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 412
-      width: 962
+      y: 548
+      width: 128
       height: 128
     spriteID: 003abeba3a804fa4a99ad503de532ba3
     spriteBone: []
@@ -198,17 +198,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 412}
+    uvTransform: {x: 4, y: 548}
   - name: POOF in village_Frame_4
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 548
-      width: 962
+      y: 684
+      width: 128
       height: 128
     spriteID: 1ff334217b4740d43b231b67faaea3f7
     spriteBone: []
@@ -218,17 +218,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 548}
+    uvTransform: {x: 4, y: 684}
   - name: POOF in village_Frame_5
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5897436, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 684
-      width: 962
+      y: 4
+      width: 156
       height: 128
     spriteID: e9efeb2e3318902418a479d29271a29f
     spriteBone: []
@@ -238,17 +238,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 684}
+    uvTransform: {x: 4, y: 4}
   - name: POOF in village_Frame_6
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 820
-      width: 962
+      width: 128
       height: 128
     spriteID: a42edd98421c0b240b0efb0d6ea1be0a
     spriteBone: []
@@ -261,14 +261,14 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 820}
   - name: POOF in village_Frame_7
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 956
-      width: 962
+      x: 168
+      y: 4
+      width: 128
       height: 128
     spriteID: 084de7901eee60e4c88751d64eebd9e5
     spriteBone: []
@@ -278,17 +278,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 956}
+    uvTransform: {x: 168, y: 4}
   - name: POOF in village_Frame_8
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1092
-      width: 962
+      x: 168
+      y: 140
+      width: 128
       height: 128
     spriteID: 2873cc03e68fae94baeaa73bb674850a
     spriteBone: []
@@ -298,17 +298,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1092}
+    uvTransform: {x: 168, y: 140}
   - name: POOF in village_Frame_9
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1228
-      width: 962
+      x: 168
+      y: 276
+      width: 128
       height: 128
     spriteID: 40c7a9b80035ed843b7709dd0e4748d5
     spriteBone: []
@@ -318,17 +318,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1228}
+    uvTransform: {x: 168, y: 276}
   - name: POOF in village_Frame_10
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1364
-      width: 962
+      x: 168
+      y: 412
+      width: 128
       height: 128
     spriteID: d34a2d148d8f11140aa48ea973641e28
     spriteBone: []
@@ -338,17 +338,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1364}
+    uvTransform: {x: 168, y: 412}
   - name: POOF in village_Frame_11
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1500
-      width: 962
+      x: 168
+      y: 548
+      width: 128
       height: 128
     spriteID: 63af53fde82da6845b9be1fd8b918154
     spriteBone: []
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1500}
+    uvTransform: {x: 168, y: 548}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -371,97 +371,97 @@ ScriptedImporter:
     - name: POOF in village_Frame_0
       frameIndex: 0
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 6efdf5b3ee07abc439fb54b70e769e36
     - name: POOF in village_Frame_1
       frameIndex: 1
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 2cdf123e5e9b4e242bd111dde1f7484e
     - name: POOF in village_Frame_2
       frameIndex: 2
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 90eeb4c79885bbe4abbafd466b0b152a
     - name: POOF in village_Frame_3
       frameIndex: 3
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 003abeba3a804fa4a99ad503de532ba3
     - name: POOF in village_Frame_4
       frameIndex: 4
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 1ff334217b4740d43b231b67faaea3f7
     - name: POOF in village_Frame_5
       frameIndex: 5
       cellRect:
-        x: -834
+        x: -28
         y: 0
-        width: 962
+        width: 156
         height: 128
       spriteId: e9efeb2e3318902418a479d29271a29f
     - name: POOF in village_Frame_6
       frameIndex: 6
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: a42edd98421c0b240b0efb0d6ea1be0a
     - name: POOF in village_Frame_7
       frameIndex: 7
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 084de7901eee60e4c88751d64eebd9e5
     - name: POOF in village_Frame_8
       frameIndex: 8
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 2873cc03e68fae94baeaa73bb674850a
     - name: POOF in village_Frame_9
       frameIndex: 9
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 40c7a9b80035ed843b7709dd0e4748d5
     - name: POOF in village_Frame_10
       frameIndex: 10
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: d34a2d148d8f11140aa48ea973641e28
     - name: POOF in village_Frame_11
       frameIndex: 11
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 63af53fde82da6845b9be1fd8b918154
     linkedCells: []

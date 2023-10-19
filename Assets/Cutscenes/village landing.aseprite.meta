@@ -121,14 +121,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: village landing_Frame_0
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 962
+      width: 128
       height: 128
     spriteID: dad9f01455fe4c14d842fbcfc7e3e6df
     spriteBone: []
@@ -141,14 +141,14 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: village landing_Frame_1
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 140
-      width: 962
+      width: 128
       height: 128
     spriteID: 59b5b8b3d5786f9498b30a756bb2edf0
     spriteBone: []
@@ -161,14 +161,14 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 140}
   - name: village landing_Frame_2
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 276
-      width: 962
+      width: 128
       height: 128
     spriteID: 362ec6a5d0ed57b49a43ffadaa0c5204
     spriteBone: []
@@ -181,14 +181,14 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 276}
   - name: village landing_Frame_3
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 412
-      width: 962
+      x: 140
+      y: 4
+      width: 128
       height: 128
     spriteID: 39b9f1659f401bb4e8887de9812a0770
     spriteBone: []
@@ -198,17 +198,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 412}
+    uvTransform: {x: 140, y: 4}
   - name: village landing_Frame_4
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 548
-      width: 962
+      x: 140
+      y: 140
+      width: 128
       height: 128
     spriteID: e33dd31143f246248998551a50a351ae
     spriteBone: []
@@ -218,17 +218,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 548}
+    uvTransform: {x: 140, y: 140}
   - name: village landing_Frame_5
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 684
-      width: 962
+      x: 140
+      y: 276
+      width: 128
       height: 128
     spriteID: 1f662b2996f5be64ea2c1998a510e30b
     spriteBone: []
@@ -238,17 +238,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 684}
+    uvTransform: {x: 140, y: 276}
   - name: village landing_Frame_6
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 820
-      width: 962
+      x: 276
+      y: 4
+      width: 128
       height: 128
     spriteID: 609e8e0d46f874e49b0bde799922ed2d
     spriteBone: []
@@ -258,17 +258,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 820}
+    uvTransform: {x: 276, y: 4}
   - name: village landing_Frame_7
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 956
-      width: 962
+      x: 276
+      y: 140
+      width: 128
       height: 128
     spriteID: c75a0e15a86634f46b7072d468dae9a9
     spriteBone: []
@@ -278,17 +278,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 956}
+    uvTransform: {x: 276, y: 140}
   - name: village landing_Frame_8
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1092
-      width: 962
+      x: 276
+      y: 276
+      width: 128
       height: 128
     spriteID: 9f0d2fc0868e7e948b85ed4135ec0ee1
     spriteBone: []
@@ -298,7 +298,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1092}
+    uvTransform: {x: 276, y: 276}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -311,73 +311,73 @@ ScriptedImporter:
     - name: village landing_Frame_0
       frameIndex: 0
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: dad9f01455fe4c14d842fbcfc7e3e6df
     - name: village landing_Frame_1
       frameIndex: 1
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 59b5b8b3d5786f9498b30a756bb2edf0
     - name: village landing_Frame_2
       frameIndex: 2
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 362ec6a5d0ed57b49a43ffadaa0c5204
     - name: village landing_Frame_3
       frameIndex: 3
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 39b9f1659f401bb4e8887de9812a0770
     - name: village landing_Frame_4
       frameIndex: 4
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: e33dd31143f246248998551a50a351ae
     - name: village landing_Frame_5
       frameIndex: 5
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 1f662b2996f5be64ea2c1998a510e30b
     - name: village landing_Frame_6
       frameIndex: 6
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 609e8e0d46f874e49b0bde799922ed2d
     - name: village landing_Frame_7
       frameIndex: 7
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: c75a0e15a86634f46b7072d468dae9a9
     - name: village landing_Frame_8
       frameIndex: 8
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
       spriteId: 9f0d2fc0868e7e948b85ed4135ec0ee1
     linkedCells: []
