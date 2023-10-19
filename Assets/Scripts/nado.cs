@@ -5,13 +5,12 @@ using UnityEngine;
 public class nado : MonoBehaviour
 {
     GameObject tonado;
-    public float speed;
-    public float lifetime;
+    public float speed = 0.01f;
+
+    public float lifetime = 3f;
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.06f;
-        lifetime = 3;
     }
 
     // Update is called once per frame

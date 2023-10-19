@@ -19,7 +19,7 @@ public class CameraScript : MonoBehaviour
     void Update()
     {
         YClamp=Mathf.Clamp(target.position.y, 2.8125f, 8.45f);
-        Vector3 targetPosition = new Vector3(target.position.x+3f, YClamp, -2f);//target.TransformPoint(new Vector3(5f,2.8125f, -1f));
+        Vector3 targetPosition = new Vector3(target.position.x+4f, YClamp, -2f);//target.TransformPoint(new Vector3(5f,2.8125f, -1f));
         
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothtime);
     }

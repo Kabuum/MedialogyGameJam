@@ -121,8 +121,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: hungerbar_Frame_1
     originalName: 
-    pivot: {x: 0.6075949, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -141,8 +141,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 28}
   - name: hungerbar_Frame_3
     originalName: 
-    pivot: {x: 0.7619048, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -161,8 +161,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 76}
   - name: hungerbar_Frame_5
     originalName: 
-    pivot: {x: 1.0212766, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -181,8 +181,8 @@ ScriptedImporter:
     uvTransform: {x: 75, y: 76}
   - name: hungerbar_Frame_7
     originalName: 
-    pivot: {x: 1.548387, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -201,8 +201,8 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 28}
   - name: hungerbar_Frame_9
     originalName: 
-    pivot: {x: 3.2, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -221,8 +221,8 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 100}
   - name: hungerbar_Frame_0
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -241,8 +241,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: hungerbar_Frame_2
     originalName: 
-    pivot: {x: 0.75, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -261,8 +261,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 52}
   - name: hungerbar_Frame_4
     originalName: 
-    pivot: {x: 1, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -281,8 +281,8 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 52}
   - name: hungerbar_Frame_6
     originalName: 
-    pivot: {x: 1.5, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -301,8 +301,8 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 4}
   - name: hungerbar_Frame_8
     originalName: 
-    pivot: {x: 3, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 6
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
