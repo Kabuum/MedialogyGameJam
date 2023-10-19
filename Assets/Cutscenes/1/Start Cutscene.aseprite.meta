@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: ceae586670ea56c4d81f2ba79e2c50af
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Start Cutscene_Clip
+    second: {fileID: 7400000, guid: a21e1465c53908248a270a234e988741, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -95,7 +100,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638333129653886069
+  platformSettingsDirtyTick: 638333287824013689
   textureAssetName: 
   singleSpriteImportData:
   - name: 

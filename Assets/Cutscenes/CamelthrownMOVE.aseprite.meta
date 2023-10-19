@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 655ae4ac481edec489ab0b422ef1d000
+guid: 4acf693a6c04b9c4d9a120bd2a997c2c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638333301120717505
+  platformSettingsDirtyTick: 638333293445956632
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,27 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Powdering the eagle_Frame_0
+  - name: CamelthrownMOVE_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 4
+      width: 128
+      height: 128
+    spriteID: 2d23885c4ae9edd40a56ac5d5114b826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 4}
+  - name: CamelthrownMOVE_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -127,10 +147,130 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
+      y: 276
+      width: 128
+      height: 128
+    spriteID: 58cfb87eae98ede4eb4b370e96878340
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 276}
+  - name: CamelthrownMOVE_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 276
+      width: 128
+      height: 128
+    spriteID: 7cd565e1298dda040a1587220f456b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 276}
+  - name: CamelthrownMOVE_Frame_3
+    originalName: 
+    pivot: {x: 0.40764332, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 29, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 157
+      height: 128
+    spriteID: 4b3419844dc684841b25d646f9bd983c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: CamelthrownMOVE_Frame_4
+    originalName: 
+    pivot: {x: 0.40764332, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 140
+      width: 157
+      height: 128
+    spriteID: 541f5a05c2b4aec49b372323f5af3e7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 140}
+  - name: CamelthrownMOVE_Frame_5
+    originalName: 
+    pivot: {x: 0.40764332, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 29, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 140
+      width: 157
+      height: 128
+    spriteID: 50a7178798438534a897581936c68b5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 334, y: 140}
+  - name: CamelthrownMOVE_Frame_6
+    originalName: 
+    pivot: {x: 0.38787878, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 37, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
       y: 4
-      width: 64
-      height: 64
-    spriteID: 983832c8d30824042b8cb279b822e71c
+      width: 165
+      height: 128
+    spriteID: 4a91f96a07534ff4082047ca6310fb3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 4}
+  - name: CamelthrownMOVE_Frame_7
+    originalName: 
+    pivot: {x: 0.3575419, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 51, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 179
+      height: 128
+    spriteID: cf20256eef37aff48bafec587dd74287
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,107 +279,79 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Powdering the eagle_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 76
-      width: 64
-      height: 64
-    spriteID: cd4608c430c225f408a70a3688f2a444
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
-  - name: Powdering the eagle_Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 148
-      width: 64
-      height: 64
-    spriteID: 90236f8a1d0312a4fad5142b7aba0e6b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 148}
-  - name: Powdering the eagle_Frame_3
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 76
-      y: 4
-      width: 64
-      height: 64
-    spriteID: f59c196165703194d9ae88ff1e430c3d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 76, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1637594806
-    name: Powdering the eagle
+    guid: -285986913
+    name: CamelthrownMOVE
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Powdering the eagle_Frame_0
+    - name: CamelthrownMOVE_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 64
-        height: 64
-      spriteId: 983832c8d30824042b8cb279b822e71c
-    - name: Powdering the eagle_Frame_1
+        width: 128
+        height: 128
+      spriteId: 2d23885c4ae9edd40a56ac5d5114b826
+    - name: CamelthrownMOVE_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
-        width: 64
-        height: 64
-      spriteId: cd4608c430c225f408a70a3688f2a444
-    - name: Powdering the eagle_Frame_2
+        width: 128
+        height: 128
+      spriteId: 58cfb87eae98ede4eb4b370e96878340
+    - name: CamelthrownMOVE_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
-        width: 64
-        height: 64
-      spriteId: 90236f8a1d0312a4fad5142b7aba0e6b
-    - name: Powdering the eagle_Frame_3
+        width: 128
+        height: 128
+      spriteId: 7cd565e1298dda040a1587220f456b0c
+    - name: CamelthrownMOVE_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
-        width: 64
-        height: 64
-      spriteId: f59c196165703194d9ae88ff1e430c3d
+        width: 157
+        height: 128
+      spriteId: 4b3419844dc684841b25d646f9bd983c
+    - name: CamelthrownMOVE_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 157
+        height: 128
+      spriteId: 541f5a05c2b4aec49b372323f5af3e7b
+    - name: CamelthrownMOVE_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 157
+        height: 128
+      spriteId: 50a7178798438534a897581936c68b5a
+    - name: CamelthrownMOVE_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 165
+        height: 128
+      spriteId: 4a91f96a07534ff4082047ca6310fb3b
+    - name: CamelthrownMOVE_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 179
+        height: 128
+      spriteId: cf20256eef37aff48bafec587dd74287
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -281,4 +393,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 128, y: 128}
