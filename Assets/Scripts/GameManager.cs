@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject player;
@@ -16,18 +15,5 @@ public class GameManager : MonoBehaviour
             stamina = 9;
         }
         foodBar.sprite = foodbarSprites[stamina - 1];
-    }
-    public void RestartLevel()
-    {
-        LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    public void NextScene()
-    {
-        LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-    public static void LoadScene(int sceneIndex)
-    {
-        SceneManager.LoadScene(sceneIndex);
-
-    }
+    } 
 }

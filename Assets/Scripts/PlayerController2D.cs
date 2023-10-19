@@ -50,7 +50,7 @@ public class PlayerController2D : MonoBehaviour
         }
         if (playerStamina <= 0)
         {
-            gameManager.GetComponent<GameManager>().RestartLevel();
+            SceneControl.ReloadScene();
         }
         if (jumps <= 0 && isLion == true)
         {
@@ -115,7 +115,7 @@ public class PlayerController2D : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("EndGoal"))
         {
-            gameManager.GetComponent<GameManager>().NextScene();
+            SceneControl.LoadNextScene();
         }
     }
     public void OnCollisionEnter2D(Collision2D collision)
@@ -126,13 +126,12 @@ public class PlayerController2D : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Ground") && isLion == false)
         {
-
             jumps = 2;
             AnimalSwap();
         }
         if (collision.gameObject.CompareTag("ObstacleDanger"))
         {
-            gameManager.GetComponent<GameManager>().RestartLevel();
+            SceneControl.ReloadScene();
 
         }
         if (collision.gameObject.CompareTag("Obstacle"))
