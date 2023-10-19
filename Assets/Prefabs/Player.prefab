@@ -161,17 +161,14 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   playerStamina: 10
   maxStamina: 8
-  rb: {fileID: 0}
+  rb: {fileID: 1419220980424407345}
   moveSpeedEagle: 10
-  staminaDrainEagle: 0
   maxSpeedEagle: 5
-  flap: 5
+  flap: 10
   animEagle: {fileID: 2569746838270333556}
   moveSpeedLion: 10
-  jumpForce: 100
+  jumpForce: 250
   staminaDrainLion: 1
-  lionSprite: {fileID: 0}
-  eagleSprite: {fileID: 0}
 --- !u!61 &410819773040045656
 BoxCollider2D:
   m_ObjectHideFlags: 0
