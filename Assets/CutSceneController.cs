@@ -20,23 +20,27 @@ public class CutSceneController : MonoBehaviour
         {
             spaceBar.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && CheckAnimState())
+        if (Input.GetKeyDown(KeyCode.Space) && CheckAnimState())
         {
             SceneControl.LoadNextScene();
         }
     }
-
-
     bool CheckAnimState()
     {
-        Animator anim = gameObject.GetComponent<Animator>();
-        anim.SetBool("hasPlayed", true);
-        AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
-        if (info.IsName("EndState"))
+        if (gameObject.GetComponent<Animator>() != null)
         {
-            return hasPlayed = true;
+            Animator anim = gameObject.GetComponent<Animator>();
+            AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
+            if (info.IsName("EndState"))
+            {
+                return hasPlayed = true;
+            }
+            else { return false; }
+        } else
+        {
+            return true;
         }
-        else { return false; }
+       
     }
 }
 
