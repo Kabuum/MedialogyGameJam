@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PlayerController2D : MonoBehaviour
 {  //Future work. Animals should be made into classes
@@ -27,10 +28,18 @@ public class PlayerController2D : MonoBehaviour
 
     public GameObject keyboardTutorial;
 
+    public AudioSource jumpSound;
+    public AudioSource hurtSound;
+
+    public GameObject poofEffect;
+
+
+
     void Start()
     {
         isLion = true;
-        keyboardTutorial.SetActive(true);
+        keyboardTutorial.SetActive(false);
+        poofEffect.SetActive(false);
     }
     void Update()
     {
@@ -71,6 +80,8 @@ public class PlayerController2D : MonoBehaviour
     }
     public void AnimalSwap()
     {
+        poofEffect.SetActive(false);
+        poofEffect.SetActive(true);
         if (isLion == false)
         {
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", true);
@@ -82,11 +93,12 @@ public class PlayerController2D : MonoBehaviour
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
             isLion = false;
+            
         }
     }
     public void EatFood()
     {
-        // Tilf�j pile der viser ned til maden
+        
         playerStamina += 10;
     }
 
@@ -95,7 +107,7 @@ public class PlayerController2D : MonoBehaviour
         if (collision.gameObject.CompareTag("RockTutorialTriggerZone"))
         {
             keyboardTutorial.SetActive(true);
-            Destroy(keyboardTutorial, 2);
+            Destroy(keyboardTutorial, 1);
         }
         if (collision.gameObject.CompareTag("FoodPickup"))
         {
