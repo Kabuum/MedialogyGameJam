@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEditor;
+using UnityEditor.U2D.Animation;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngineInternal;
@@ -46,20 +47,24 @@ public class PlayerController2D : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log(isLion);
+        Debug.Log(jumps);
         playerStamina -= 1 * Time.deltaTime;
         if (playerStamina < maxStamina)
         {
             playerStamina = maxStamina;
         }
+
         if (playerStamina <= 0)
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
         }
         if (jumps <= 0 && isLion == true)
         {
+           
             AnimalSwap();
+            
         }
-
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0 && isLion)
         {
             rb.AddForce(new Vector2(0, jumpForce));
@@ -69,11 +74,8 @@ public class PlayerController2D : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isLion == false)
         {
             rb.AddForce(Vector2.up * flap, ForceMode2D.Impulse);
-
             //Afspil et flap
-            animEagle.Play("eagleAnimation");
         }
-       
         if ((rb.velocity.magnitude < maxSpeedEagle * -1) && isLion == false)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeedEagle * -1);
@@ -82,55 +84,39 @@ public class PlayerController2D : MonoBehaviour
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeedEagle);
         }
-        
     }
-
     public void AnimalSwap()
     {
         if (isLion == false)
         {
-            isLion = true;
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", true);
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", false);
-        } else
+            isLion = true;
+        }
+        else if (isLion == true)
         {
-            isLion = false;
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
+            isLion = false;
         }
     }
-
     public void EatFood()
     {
+        // Tilføj pile der viser ned til maden
         playerStamina += 10;
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("ObstacleDanger"))
-        {
-            gameManager.GetComponent<GameManager>().RestartLevel();
-        }
-        if (collision.gameObject.CompareTag("ObstacleBlock"))
-        {
-            //add backwards force
-        }
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            if (isLion == true)
-            {
-                isGrounded = true;
-            }
-            else if (isLion == false)
-            {
-               
-            }
 
-        }
-        if (collision.gameObject.CompareTag("Ground") && isLion == false)
+        if (collision.gameObject.CompareTag("Ground") && isLion == true)
         {
-            isGrounded = true;
-            
+            jumps = 2;
         }
-
+        else if (collision.gameObject.CompareTag("Ground") && isLion == false)
+        {
+           
+            jumps = 2;
+            AnimalSwap();
+        }
     }
 }
