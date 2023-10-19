@@ -1361,18 +1361,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   playerStamina: 10
+  maxStamina: 8
+  rb: {fileID: 0}
   moveSpeedEagle: 10
   staminaDrainEagle: 0
   maxSpeedEagle: 5
-  rbEagle: {fileID: 1778067245}
   flap: 5
   animEagle: {fileID: 1778067244}
   moveSpeedLion: 10
   jumpForce: 100
   staminaDrainLion: 1
-  rbLion: {fileID: 0}
-  eagle: {fileID: 1778067241}
-  lion: {fileID: 0}
+  lionSprite: {fileID: 0}
+  eagleSprite: {fileID: 0}
 --- !u!95 &1778067244
 Animator:
   serializedVersion: 5

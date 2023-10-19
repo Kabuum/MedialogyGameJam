@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 22
-    spriteID: 92bd7ba0a375074418dd47a68aee7fba
+    spriteID: c314ea909df9f034f8ee26c8c096d01c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 58
       width: 32
       height: 14
-    spriteID: 0b1071145635bab4488a42f46d9da28f
+    spriteID: ee2b1cd09bca8ae4990296b0b7875d5a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 34
       width: 32
       height: 16
-    spriteID: 9aa4db4f7bac8ef48911bc79a3e51846
+    spriteID: cd2ca3bb67b49204091e788c30d8d861
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 80
       width: 32
       height: 14
-    spriteID: f41980bc8f386984fb3cdc6e0692f1bd
+    spriteID: 96e48fe24b8bcbe48966d47bf8f38166
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 7
         width: 32
         height: 22
-      spriteId: 92bd7ba0a375074418dd47a68aee7fba
+      spriteId: c314ea909df9f034f8ee26c8c096d01c
     - name: eagleAnimation_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 7
         width: 32
         height: 14
-      spriteId: 0b1071145635bab4488a42f46d9da28f
+      spriteId: ee2b1cd09bca8ae4990296b0b7875d5a
     - name: eagleAnimation_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 3
         width: 32
         height: 16
-      spriteId: 9aa4db4f7bac8ef48911bc79a3e51846
+      spriteId: cd2ca3bb67b49204091e788c30d8d861
     - name: eagleAnimation_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,46 +239,10 @@ ScriptedImporter:
         y: 7
         width: 32
         height: 14
-      spriteId: f41980bc8f386984fb3cdc6e0692f1bd
+      spriteId: 96e48fe24b8bcbe48966d47bf8f38166
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

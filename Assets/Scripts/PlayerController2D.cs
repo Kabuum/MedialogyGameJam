@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -10,7 +11,9 @@ using UnityEngineInternal;
 public class PlayerController2D : MonoBehaviour
 {  //Future work. Animals should be made into classes
     public GameObject gameManager;
-    public float playerStamina;
+    public float playerStamina, maxStamina = 8;
+    public Rigidbody2D rb;
+
 
     [Header("Eagle")]
     public float moveSpeedEagle = 10;
@@ -18,129 +21,85 @@ public class PlayerController2D : MonoBehaviour
     Camera cam;
     float camX;
     public float maxSpeedEagle = 5;
-    public Rigidbody2D rbEagle;
+
+
     public float flap = 20f;
     public Animator animEagle;
-
 
     [Header("Lion")]
     public float moveSpeedLion = 10;
     public float jumpForce;
     public float staminaDrainLion;
-    public Rigidbody2D rbLion;
 
-
-    public GameObject eagle;
-    public GameObject lion;
+    public Sprite lionSprite;
+    public Sprite eagleSprite;
 
     bool isGrounded = true;
-
     int jumps = 2;
 
     bool isLion = true;
 
-
-    //eagle part
-
-
-    // Start is called before the first frame update
     void Start()
     {
-
+        isLion = true;
         cam = Camera.main;
-        if (this.gameObject.name == "Eagle")
-        {
-            isLion = false;
-        }
-        else if (this.gameObject.name == "Lion")
-        {
-            isLion = true;
-        }
-
-        
-
-     //  eagle.SetActive(false);
     }
-
     void Update()
     {
-
+        playerStamina -= 1 * Time.deltaTime;
+        if (playerStamina < maxStamina)
+        {
+            playerStamina = maxStamina;
+        }
         if (playerStamina <= 0)
         {
             gameManager.GetComponent<GameManager>().RestartLevel();
         }
-        #region LionControls
         if (jumps <= 0 && isLion == true)
         {
-            SwapAnimal(lion, eagle);
-
+            AnimalSwap();
         }
+
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0 && isLion)
         {
-            rbLion.AddForce(new Vector2(0, jumpForce));
+            rb.AddForce(new Vector2(0, jumpForce));
             isGrounded = false;
             jumps--;
         }
-        if (Input.GetKey(KeyCode.A) && isLion)
+        if (Input.GetKeyDown(KeyCode.Space) && isLion == false)
         {
-            float angle = transform.eulerAngles.y;
-            if (angle != 180)
-            {
-                transform.Rotate(0, 180, 0);
-            }
-            playerStamina -= 1 * Time.deltaTime;
-            transform.Translate(Vector2.right * moveSpeedLion * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.D) && isLion)
-        {
-            float angle = transform.eulerAngles.y;
-            Debug.Log(angle);
-            if (angle == 180)
-            {
-                transform.Rotate(0, -180, 0);
-            }
-            playerStamina -= 1 * Time.deltaTime;
-            transform.Translate(Vector2.right * moveSpeedLion * Time.deltaTime);
-        }
-        #endregion
+            rb.AddForce(Vector2.up * flap, ForceMode2D.Impulse);
 
-        #region EagleControls
-
-        if (Input.GetKeyDown(KeyCode.Space) && !isLion)
-        {
-            rbLion.AddForce(Vector2.up * flap, ForceMode2D.Impulse);
+            //Afspil et flap
             animEagle.Play("eagleAnimation");
         }
-
-        if ((rbEagle.velocity.magnitude < maxSpeedEagle * -1) && !isLion)
+       
+        if ((rb.velocity.magnitude < maxSpeedEagle * -1) && isLion == false)
         {
-            rbEagle.velocity = Vector2.ClampMagnitude(rbEagle.velocity, maxSpeedEagle * -1);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeedEagle * -1);
         }
-        if ((rbEagle.velocity.magnitude > maxSpeedEagle) && !isLion)
+        if ((rb.velocity.magnitude > maxSpeedEagle) && isLion == false)
         {
-            rbEagle.velocity = Vector2.ClampMagnitude(rbEagle.velocity, maxSpeedEagle);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeedEagle);
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && !isLion)
-        {
-            transform.Translate(Vector2.left * (moveSpeedEagle * Time.deltaTime));
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.RightArrow) && !isLion)
-        {
-            transform.Translate(Vector2.right * (moveSpeedEagle * Time.deltaTime));
-            GetComponent<SpriteRenderer>().flipX = false;
-        }
-        #endregion
+        
     }
 
-    public void SwapAnimal(GameObject currentAnimal, GameObject nextAnimal)
+    public void AnimalSwap()
     {
-        currentAnimal.SetActive(false);
-        nextAnimal = eagle;
-        Debug.Log(nextAnimal);
-        nextAnimal.SetActive(true);
+        if (isLion == false)
+        {
+            isLion = true;
+            this.gameObject.GetComponent<Animator>().SetBool("Grounded", true);
+            this.gameObject.GetComponent<Animator>().SetBool("Eagle", false);
+        } else
+        {
+            isLion = false;
+            this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
+            this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
+        }
     }
+
     public void EatFood()
     {
         playerStamina += 10;
@@ -155,14 +114,22 @@ public class PlayerController2D : MonoBehaviour
         {
             //add backwards force
         }
-        if (collision.gameObject.CompareTag("Ground") && isLion == true)
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;
+            if (isLion == true)
+            {
+                isGrounded = true;
+            }
+            else if (isLion == false)
+            {
+               
+            }
+
         }
         if (collision.gameObject.CompareTag("Ground") && isLion == false)
         {
             isGrounded = true;
-            SwapAnimal(eagle, lion);
+            
         }
 
     }
