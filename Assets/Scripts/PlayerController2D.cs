@@ -18,9 +18,6 @@ public class PlayerController2D : MonoBehaviour
 
     [Header("Eagle")]
     public float moveSpeedEagle = 10;
-    public float staminaDrainEagle;
-    Camera cam;
-    float camX;
     public float maxSpeedEagle = 5;
 
 
@@ -30,12 +27,9 @@ public class PlayerController2D : MonoBehaviour
     [Header("Lion")]
     public float moveSpeedLion = 10;
     public float jumpForce;
+
     public float staminaDrainLion;
 
-    public Sprite lionSprite;
-    public Sprite eagleSprite;
-
-    bool isGrounded = true;
     int jumps = 2;
 
     bool isLion = true;
@@ -43,12 +37,9 @@ public class PlayerController2D : MonoBehaviour
     void Start()
     {
         isLion = true;
-        cam = Camera.main;
     }
     void Update()
     {
-        Debug.Log(isLion);
-        Debug.Log(jumps);
         playerStamina -= 1 * Time.deltaTime;
         if (playerStamina < maxStamina)
         {
@@ -68,7 +59,6 @@ public class PlayerController2D : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0 && isLion)
         {
             rb.AddForce(new Vector2(0, jumpForce));
-            isGrounded = false;
             jumps--;
         }
         if (Input.GetKeyDown(KeyCode.Space) && isLion == false)
