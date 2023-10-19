@@ -39,6 +39,7 @@ public class PlayerController2D : MonoBehaviour
     void Start()
     {
         isLion = true;
+        keyboardTutorial.SetActive(true);
     }
     void Update()
     {
@@ -115,7 +116,6 @@ public class PlayerController2D : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("Ground") && isLion == true)
         {
             jumps = 2;
