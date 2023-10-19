@@ -26,19 +26,14 @@ public class PlayerController2D : MonoBehaviour
 
     bool isLion = true;
 
-    public GameObject keyboardTutorial;
-
     public AudioSource jumpSound;
     public AudioSource hurtSound;
 
     public GameObject poofEffect;
 
-
-
     void Start()
     {
         isLion = true;
-        keyboardTutorial.SetActive(false);
         poofEffect.SetActive(false);
     }
     void Update()
@@ -93,21 +88,14 @@ public class PlayerController2D : MonoBehaviour
             this.gameObject.GetComponent<Animator>().SetBool("Eagle", true);
             this.gameObject.GetComponent<Animator>().SetBool("Grounded", false);
             isLion = false;
-
         }
     }
     public void EatFood()
     {
-
         playerStamina += 10;
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("RockTutorialTriggerZone"))
-        {
-            keyboardTutorial.SetActive(true);
-            Destroy(keyboardTutorial, 1);
-        }
         if (collision.gameObject.CompareTag("FoodPickup"))
         {
             EatFood();
@@ -132,11 +120,7 @@ public class PlayerController2D : MonoBehaviour
         if (collision.gameObject.CompareTag("ObstacleDanger"))
         {
             SceneControl.ReloadScene();
-
-        }
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            playerStamina--;
+            hurtSound.Play();
         }
     }
 }

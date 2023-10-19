@@ -9,6 +9,13 @@ public class MusicController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject g = GameObject.Find("Hurt sfx");
+        if (g!= null)
+        {
+            Destroy(g);
+              
+        }
+
         DontDestroyOnLoad(this.gameObject);
     }
 
