@@ -41,7 +41,7 @@ public class PlayerController2D : MonoBehaviour
     void Update()
     {
         playerStamina -= 1 * Time.deltaTime;
-        if (playerStamina < maxStamina)
+        if (playerStamina > maxStamina)
         {
             playerStamina = maxStamina;
         }
@@ -52,9 +52,9 @@ public class PlayerController2D : MonoBehaviour
         }
         if (jumps <= 0 && isLion == true)
         {
-           
+
             AnimalSwap();
-            
+
         }
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0 && isLion)
         {
@@ -104,9 +104,25 @@ public class PlayerController2D : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Ground") && isLion == false)
         {
-           
+
             jumps = 2;
             AnimalSwap();
         }
+
+        if (collision.gameObject.CompareTag("ObstacleDanger"))
+        {
+            gameManager.GetComponent<GameManager>().RestartLevel();
+
+        }
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            playerStamina--;
+        }
+        if (collision.gameObject.CompareTag("FoodPickup"))
+        {
+            EatFood();
+            Destroy(collision.gameObject);
+        }
     }
+
 }
