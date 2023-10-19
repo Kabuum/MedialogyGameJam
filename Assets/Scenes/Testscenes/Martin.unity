@@ -382,15 +382,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1755573977}
   foodbarSprites:
-  - {fileID: 4543536535614493320, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: 3396624285531502294, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: 6978277928764604131, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: 8896708082899536681, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: -1432231232335130094, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: -256962487774122179, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: 2525917580997846395, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: 8133594035584268165, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
-  - {fileID: -4576956356046785288, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
+  - {fileID: 8035081902294163470, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: 6668718531210767814, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -9166111127799324267, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -7306104919361135139, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -657209473315652365, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -4926200714836469128, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -7358541709747469852, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: -2668982414278473822, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: 6525739462738264485, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
+  - {fileID: 2488502561643380186, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
   foodBar: {fileID: 634499718}
 --- !u!4 &247668118
 Transform:
@@ -607,7 +608,7 @@ GameObject:
   - component: {fileID: 634499719}
   - component: {fileID: 634499718}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Foodbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -654,7 +655,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4576956356046785288, guid: 0e0cd252bfe5f184ca476866e495637f, type: 3}
+  m_Sprite: {fileID: 2488502561643380186, guid: bd44f4433653b0c46919ac58ff76e180, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

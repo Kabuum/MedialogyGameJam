@@ -6,18 +6,12 @@ using UnityEngine;
 public class FoodPickup : MonoBehaviour
 {
     public GameObject eatEffect;
-
     public GameObject foodObject;
-
-    private void Start()
-    {
-
-    }
     public void Eaten()
     {
-        Debug.Log("Hello");
-        Destroy(foodObject);
         
+        Destroy(foodObject);
+        this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         eatEffect.SetActive(true);
         //spil lydeffect
     }
