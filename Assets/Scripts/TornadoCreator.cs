@@ -17,7 +17,7 @@ public class TornadoCreator : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        spawnTimerMax = 1f;
+        spawnTimerMax = 2f;
         spawnTimer = spawnTimerMax;
         camHeight = cam.orthographicSize;
     }
