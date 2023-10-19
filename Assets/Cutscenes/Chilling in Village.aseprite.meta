@@ -121,16 +121,56 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Chilling in Village_Frame_0
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 839
+      y: 4
+      width: 128
+      height: 128
+    spriteID: 681414401ededfb4b87eae2e3405df97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 839, y: 4}
+  - name: Chilling in Village_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 839
+      y: 140
+      width: 128
+      height: 128
+    spriteID: c0baac87448b6eb40b33b5d918fe39c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 839, y: 140}
+  - name: Chilling in Village_Frame_2
+    originalName: 
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 962
+      width: 827
       height: 128
-    spriteID: 7adb6f2d733638f4aad50a2889f7a02d
+    spriteID: 929b797da0c551e468890d3e85a74116
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,18 +179,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Chilling in Village_Frame_1
+  - name: Chilling in Village_Frame_3
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 140
-      width: 962
+      width: 827
       height: 128
-    spriteID: 30cfc18752d46d840a4842ba088d4dd0
+    spriteID: baa1a106f6589c847bd4401475455390
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,18 +199,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 140}
-  - name: Chilling in Village_Frame_2
+  - name: Chilling in Village_Frame_4
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 276
-      width: 962
+      width: 827
       height: 128
-    spriteID: d30dff835d498f04b887798751beea24
+    spriteID: 69b4a286e7f1b9e4f85105539bcac9fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,18 +219,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 276}
-  - name: Chilling in Village_Frame_3
+  - name: Chilling in Village_Frame_5
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 412
-      width: 962
+      width: 827
       height: 128
-    spriteID: d5d211dccc08ee04ca5a3dd2dbcd54ea
+    spriteID: 67ad4cfe547867946b69e197db8513a4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,18 +239,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 412}
-  - name: Chilling in Village_Frame_4
+  - name: Chilling in Village_Frame_6
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 548
-      width: 962
+      width: 827
       height: 128
-    spriteID: 05b4222b70aa5e448ada903f62190baf
+    spriteID: 2aaf95b3fa6e99d4ea0cce59bdef9b25
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,18 +259,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 548}
-  - name: Chilling in Village_Frame_5
+  - name: Chilling in Village_Frame_7
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 684
-      width: 962
+      width: 827
       height: 128
-    spriteID: d552172d5f78c514f95777e2972f4cdb
+    spriteID: 654e69607e2027c4cb35819ac99f0618
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -239,18 +279,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 684}
-  - name: Chilling in Village_Frame_6
+  - name: Chilling in Village_Frame_8
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 820
-      width: 962
+      width: 827
       height: 128
-    spriteID: 312f409e57f2a2e4e92b9c41b90b303d
+    spriteID: 2f9508d0731b853478bc3d921be3bec8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -259,18 +299,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 820}
-  - name: Chilling in Village_Frame_7
+  - name: Chilling in Village_Frame_9
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 956
-      width: 962
+      width: 827
       height: 128
-    spriteID: b35c27597dbb44a4088c8726670fa391
+    spriteID: 061b245080205454594effbdbc92966f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,18 +319,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 956}
-  - name: Chilling in Village_Frame_8
+  - name: Chilling in Village_Frame_10
     originalName: 
-    pivot: {x: 0.9334719, y: 0}
+    pivot: {x: 0.9226119, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 1092
-      width: 962
+      width: 827
       height: 128
-    spriteID: ee76a90c9fd674a4caf45e32a8dc96fc
+    spriteID: 7076194114a932e459cbbdca7e5b4984
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -299,46 +339,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 1092}
-  - name: Chilling in Village_Frame_9
-    originalName: 
-    pivot: {x: 0.9334719, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1228
-      width: 962
-      height: 128
-    spriteID: 162ab7df9dd865f4bb64afd9068d0459
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 1228}
-  - name: Chilling in Village_Frame_10
-    originalName: 
-    pivot: {x: 0.9334719, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1364
-      width: 962
-      height: 128
-    spriteID: d7008b175efddbe4586ef60224248dd6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 1364}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -351,91 +351,91 @@ ScriptedImporter:
     - name: Chilling in Village_Frame_0
       frameIndex: 0
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
-      spriteId: 7adb6f2d733638f4aad50a2889f7a02d
+      spriteId: 681414401ededfb4b87eae2e3405df97
     - name: Chilling in Village_Frame_1
       frameIndex: 1
       cellRect:
-        x: -834
+        x: 0
         y: 0
-        width: 962
+        width: 128
         height: 128
-      spriteId: 30cfc18752d46d840a4842ba088d4dd0
+      spriteId: c0baac87448b6eb40b33b5d918fe39c5
     - name: Chilling in Village_Frame_2
       frameIndex: 2
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: d30dff835d498f04b887798751beea24
+      spriteId: 929b797da0c551e468890d3e85a74116
     - name: Chilling in Village_Frame_3
       frameIndex: 3
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: d5d211dccc08ee04ca5a3dd2dbcd54ea
+      spriteId: baa1a106f6589c847bd4401475455390
     - name: Chilling in Village_Frame_4
       frameIndex: 4
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: 05b4222b70aa5e448ada903f62190baf
+      spriteId: 69b4a286e7f1b9e4f85105539bcac9fc
     - name: Chilling in Village_Frame_5
       frameIndex: 5
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: d552172d5f78c514f95777e2972f4cdb
+      spriteId: 67ad4cfe547867946b69e197db8513a4
     - name: Chilling in Village_Frame_6
       frameIndex: 6
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: 312f409e57f2a2e4e92b9c41b90b303d
+      spriteId: 2aaf95b3fa6e99d4ea0cce59bdef9b25
     - name: Chilling in Village_Frame_7
       frameIndex: 7
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: b35c27597dbb44a4088c8726670fa391
+      spriteId: 654e69607e2027c4cb35819ac99f0618
     - name: Chilling in Village_Frame_8
       frameIndex: 8
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: ee76a90c9fd674a4caf45e32a8dc96fc
+      spriteId: 2f9508d0731b853478bc3d921be3bec8
     - name: Chilling in Village_Frame_9
       frameIndex: 9
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: 162ab7df9dd865f4bb64afd9068d0459
+      spriteId: 061b245080205454594effbdbc92966f
     - name: Chilling in Village_Frame_10
       frameIndex: 10
       cellRect:
-        x: -834
+        x: -699
         y: 0
-        width: 962
+        width: 827
         height: 128
-      spriteId: d7008b175efddbe4586ef60224248dd6
+      spriteId: 7076194114a932e459cbbdca7e5b4984
     linkedCells: []
     parentIndex: -1
   platformSettings: []
