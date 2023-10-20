@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public static class SceneControl
 {
+    public static int GetSceneIndex()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
     public static void ReloadScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
